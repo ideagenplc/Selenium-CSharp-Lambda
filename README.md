@@ -11,7 +11,9 @@ How to use Selenium (C#) Webdriver with Amazon Web Services (AWS) Lambda.
 
 ## Getting started
 
-Download the Selenium-CSharp-Lambda solution and open in visual studio. Upload the HeadlessSeleniumSetup.zip file to your S3 bucket.
+Download the HeadlessSeleniumSetup.zip file and upload the zip file (do not extract) to your S3 bucket.
+
+Download the Selenium-CSharp-Lambda solution and open in visual studio. 
 
 Edit the following code to include the credentials, region endpoint (e.g. RegionEndpoint.USEast1) and bucket name for your chosen S3 bucket
 
@@ -32,6 +34,10 @@ All you need to do now is invoke the lambda. You can see the results of the sele
 ```bash
 Driver title is: Google
 ```
+
+## Test runner
+
+[TestRunner](https://github.com/ideagenplc/Selenium-CSharp-Lambda/tree/master/Selenium-CSharp-TestRunner "TestRunner")
 
 ## References
 
